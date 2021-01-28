@@ -85,6 +85,7 @@ img {
   }
 
   #lezioni .row {
+    margin-top: 0;
     background-color: #ffff0040;
   }
 
