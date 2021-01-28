@@ -73,28 +73,31 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-
+  /* Tolgo i margini */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+  /* Aumento il font size per facilitare la lettura */
   body {
     font-size: 30px;
   }
 
+  /* Levo il margine superiore e colore background per la prima sezione */
   #lezioni .row {
     margin-top: 0;
     background-color: #ffff0040;
   }
-
+  /* Sistemo le proporzioni della prima sezione */
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: none;
   }
 
+  /* Sistemo le proporzioni per la seconda sezione */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
@@ -102,10 +105,12 @@ img {
     width: 100%;
   }
 
+  /* Coloro background per la terza sezione */
   #why .row {
     background-color: #ffff0040;
   }
 
+  /* Rendo più visibile la hr */
   #why .row hr{
     color: black;
     background-color: black;
