@@ -85,6 +85,11 @@ img {
     font-size: 30px;
   }
 
+  /* Compatto il tutto */
+  .row {
+    margin-top: 0;
+  }
+
   /* Levo il margine superiore e colore background per la prima sezione */
   #lezioni .row {
     margin-top: 0;
@@ -97,6 +102,11 @@ img {
     float: none;
   }
 
+  /* Spazio per marcare il fine sezione */
+  #lezioni .row>.right {
+    margin-bottom: 15px;
+  }
+
   /* Sistemo le proporzioni per la seconda sezione */
   #steps .row>.left,
   #steps .row>.central,
@@ -105,14 +115,31 @@ img {
     width: 100%;
   }
 
+  /* Spazio per marcare il fine sezione */
+  #steps .row>.right {
+    margin-bottom: 15px;
+  }
+
   /* Coloro background per la terza sezione */
   #why .row {
     background-color: #ffff0040;
   }
 
+  /* Aggiusto il margin top alle immagini*/
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+
   /* Rendo più visibile la hr */
-  #why .row hr{
+  #why .row hr {
     color: black;
     background-color: black;
+  }
+
+  /* Spazio per marcare il fine sezione */
+  #why .row>.third {
+    margin-bottom: 15px;
   }
 }
